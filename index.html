@@ -19,6 +19,8 @@
                     colors: {
                         clifford: '#da373d',
                         'bg_primery': '#FF4240',
+                        'text_des': '#13131899',
+                        'text_title': '#131318',
                     }
                 }
             }
@@ -32,7 +34,7 @@
 </head>
 
 <body class="font_man">
-    <header class="mx-20 my-5">
+    <header class="m-4 lg:mx-20 lg:my-5">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -56,7 +58,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="text-3xl font-extrabold">Hockey<span class="text-bg_primery">’</span>s</a>
+                    <a class="text-3xl font-extrabold text-text_title">Hockey<span class="text-bg_primery">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -90,7 +92,8 @@
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full h-[90%]" />
+                    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+                        class="w-full h-[90%]" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
@@ -99,10 +102,47 @@
             </div>
             <div class="bg-[#131318] p-5 lg:w-[50%] lg:absolute lg:bottom-[70px] lg:right-8 rounded-xl">
                 <h3 class="text-white text-xl font-extrabold mb-4">Meet all the heroes from the field</h3>
-                <p class="text-[#FFFFFF99] font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-[#FFFFFF99] font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                    turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
         </section>
     </header>
+    <main class="m-4 lg:mx-20 lg:my-5">
+        <section class="professional">
+            <div class="flex justify-center">
+                <div class="w-full text-center border-dashed border border-y-gray-300 border-x-0 p-4">
+                    <h2 class="text-3xl font-extrabold mb-5 text-text_title">Professional Hockeys Club</h2>
+                    <p class="font-medium text-text_des">
+                        Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                        <br>
+                        dolor. Purus urna in sit nullam proin.
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-between flex-col lg:flex-row gap-3 lg:gap-6 mt-10">
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <div class=" radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div>
+                    <h4 class="text-center font-bold text-xl text-text_title">Prayer Facility</h4>
+                    <p class="text-center text-text_des">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+                    <h4 class="text-center font-bold text-xl text-text_title">Experienced Coach</h4>
+                    <p class="text-center text-text_des">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <div class="radial-progress text-orange-400" style="--value:90;" role="progressbar">90%</div>
+                    <h4 class="text-center font-bold text-xl text-text_title">Senior Player</h4>
+                    <p class="text-center text-text_des">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+                    <h4 class="text-center font-bold text-xl text-text_title">Training Ground</h4>
+                    <p class="text-center text-text_des">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 
